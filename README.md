@@ -5,7 +5,7 @@ Use:
 ```
 let Debounce = new Debounce();
 let onScroll = Debounce.debounce(() => {
-	// somethinc code...
+	// something  code...
 }, 50);
 
 window.addEventListener('scroll', onScroll);
